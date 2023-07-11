@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+          <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport"
+                              content="width=device-width, initial-scale=1.0">
+                    <title>more omn selectors</title>
+                    <style>
+                    h1{
+                              background-color: blue;
+                              color: beige;
+                              font-weight: bold;
+                              text-align: center;}
+                              
+                   
+                              /* if  p is contain by any li which is contained by div */
+                              /* div li p{
+                                        color: rebeccapurple;
+                                        background-color: green;
+                                        font-weight: bold; */
+                             /* if p is right inside div then  this css will be applied  */
+                              /* div > p{
+                              color: black;
+                              background-color: pink; */
+                    /* IF p is right after div i.e p is the next sibling of div */
+                     /* div + p{
+                              color: aliceblue;
+                              background-color: red; */ 
+                    /* } */
+
+          </style>
+          </head>
+          <body>
+                    <h1> this is more selectors</h1>
+                    <div class="container">
+                              <div class="row">
+                                        <ul>
+                                                  <li class="item"><p>THIS PARA COMES UNDER THE DIV UL</p>
+
+                                                  </li> <li>
+                                                            THIS COMES UNDER THE LI
+                                                  </li>
+                                        </ul>
+                                        <p>THIS IS THE PARA GRAPH
+
+                                        </p></div>
+
+                              <p>THIS IS ANOTHER PARAGRAPH
+
+                              </p></div>
+
+                    <p>THIS IS OUTERMOST PARAGRAPH Y
+                    </p>
+
+          </body>
+</html>
