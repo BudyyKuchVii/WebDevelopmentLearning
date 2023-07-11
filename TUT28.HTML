@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>before and after pseudo selecter</title>
+          <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Work+Sans&display=swap" rel="stylesheet">
+          <style>
+                    body{
+                              margin: 0%;
+                              padding: 0%;
+                              background-color: black;
+                              color: white;
+                              background-image:url(https://images.unsplash.com/photo-1627897495484-229b29feb0d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)
+                              ;
+                    }
+                    .navigation{
+                              display: flex;
+                              font-family: 'Exo 2', sans-serif;
+                    }
+                    li{
+                              list-style: none;
+                              padding: 23px 35px;
+                              font-family: 'Exo 2', sans-serif;
+                    
+                    }
+                    section{
+                              height: 344px;
+                              margin: 3px 23px;
+                              display: flex;
+                              flex-direction: column;
+                              align-items: center;
+                           
+                              justify-content: center;
+                    }
+                              /* vertical centre justiya content is used */
+                    /* section::after{
+                              content: "this is content";
+                    } */
+                    h1{
+                              font-size: 4rem;
+                              font-family: 'Exo 2', sans-serif;
+                    }
+                    p{
+                              text-align: center;
+                              font-family: 'Exo 2', sans-serif;
+                    }
+                    section ::before{
+                              content:" this is my content"
+
+                    }
+                             
+
+          </style>
+</head>
+<body>
+          <header>
+                    <nav class="navbar">
+                              <ul class="navigation">
+                                        <li class="item">homw</li>
+                                        <li class="item">about</li>
+                                        <li class="item">contact us</li>
+                                        <li class="item">services</li>
+                              </ul>
+                    </nav>
+                    <section>
+                              <h1> THIS IS MY WEBSITE GUYS</h1>
+                              <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Ut fuga quam, eius dicta, velit necessitatibus unde
+                                         maxime quae numquam sit eaque id obcaecati!
+                              </p>
+                    </sectiont>
+          </header>
+          <hr>
+          
+</body>
+</html>
